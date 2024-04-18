@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Wireframe</title>
+    <script src="script.js" defer></script>
+</head>
+<style>
+    :root{
+        text-align: center;
+    }
+    body{
+        background-color: black;
+        overflow: hidden;
+        
+    }
+    canvas{
+        border: 2px solid white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    input{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        color: white;
+    }
+</style>
+<body>
+    <canvas></canvas>
+
+    <div class="container" id="inputs">
+        <p>Rotate by Axis:</p>
+
+        <p>X-Axis: <input type="checkbox" id="xAxis"></p>
+
+        <p>Y-Axis: <input type="checkbox" id="yAxis" checked></p>
+        
+        <p>Z-Axis: <input type="checkbox" id="zAxis" checked></p>
+        
+    </div>
+</body>
+</html>
